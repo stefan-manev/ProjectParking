@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Barking</string>
+    <string name="tab_text_1">Log in</string>
+    <string name="tab_text_2">Sign up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Retype password</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="reg_button">Register</string>
+    <string name="signin">Sign in</string>
+    <string name="listusers">View Database</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--I'll have this string array just in case I decide to do the cities that way-->
+    <string name="default_date">2020/12/28</string>
+
+    <string name="default_time">00:00 - 1:00</string>
+
+    <string name="title_activity_confirmation">ConfirmationActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="cities">
+        <item>Berovo</item>
+        <item>Bitola</item>
+        <item>Debar</item>
+        <item>Gevgelija</item>
+        <item>Kavadarci</item>
+        <item>Kichevo</item>
+        <item>Krushevo</item>
+        <item>Ohrid</item>
+        <item>Prilep</item>
+        <item>Skopje</item>
+        <item>Struga</item>
+        <item>Strumica</item>
+        <item>Shtip</item>
+        <item>Tetovo</item>
+        <item>Veles</item>
+    </string-array>
+    <string-array name="timeslots">
+        <item>00:00 - 1:00</item>
+        <item>1:00 - 2:00</item>
+        <item>2:00 - 3:00</item>
+        <item>3:00 - 4:00</item>
+        <item>4:00 - 5:00</item>
+        <item>5:00 - 6:00</item>
+        <item>6:00 - 7:00</item>
+        <item>7:00 - 8:00</item>
+        <item>8:00 - 9:00</item>
+        <item>9:00 - 10:00</item>
+        <item>10:00 - 11:00</item>
+        <item>11:00 - 12:00</item>
+        <item>12:00 - 13:00</item>
+        <item>13:00 - 14:00</item>
+        <item>14:00 - 15:00</item>
+        <item>15:00 - 16:00</item>
+        <item>16:00 - 17:00</item>
+        <item>17:00 - 18:00</item>
+        <item>18:00 - 19:00</item>
+        <item>19:00 - 20:00</item>
+        <item>20:00 - 21:00</item>
+        <item>21:00 - 22:00</item>
+        <item>22:00 - 23:00</item>
+        <item>23:00 - 24:00</item>
+    </string-array>
+
+</resources>

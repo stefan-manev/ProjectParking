@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmFragment">
+
+    <TextView
+        android:id="@+id/success_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Successful Reservation!"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout2" />
+
+    <TextView
+        android:id="@+id/passed_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/success_tv"
+        app:layout_constraintBottom_toTopOf="@id/btn_qr"/>
+
+    <Button
+        android:id="@+id/btn_navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to get there?"
+        app:layout_constraintTop_toBottomOf="@+id/btn_qr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View QR"
+        app:layout_constraintBottom_toTopOf="@+id/btn_navigate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passed_tv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
