@@ -1,4 +1,4 @@
-# Barking
+# barking App
 ### A typo? We will never know..
 Android Project (Parking Reservation App)
 
